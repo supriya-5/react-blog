@@ -1,11 +1,12 @@
 import React from 'react'
+import seoul from './seoul2.webp';
 
 const Tourone = () => {
   return (
     <>
     <div className='one'>
       <h1>Seoul: The Dazzling Capital City</h1>
- <img src= {require('./seoul2.webp')} height={400} width={600}/>
+ <img src= {seoul} height={400} width={600} alt="seoul"/>
 <p style={{marginLeft:"25px", marginRight:"25px"}}>Often declared the most beautiful Museum in Seoul, the Korea Furniture Museum is a sight that few tourists ever get to visit.
 
 That is because they aren’t open to the general public – you have to make reservations to see it. While it takes a bit more effort, it is well worth your time.

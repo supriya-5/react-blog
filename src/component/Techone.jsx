@@ -1,11 +1,13 @@
 import React from 'react'
+import imagestech2 from './imagestech2.jpg';
+
 
 const Techone = () => {
   return (
     <>
     <div className='one'>
       <h1>South Korea to Concentrate on R&D in 10 Sectors</h1>
- <img src= {require('./imagestech2.jpg')} height={400} width={600}/>
+ <img src= {imagestech2} height={400} width={600} alt="tech2"/>
 <p style={{marginLeft:"25px", marginRight:"25px"}}>At present, the United States is planning to invest US$150 billion for five years in the 10 sectors including autonomous driving, biotech, semiconductor and artificial intelligence. China is also increasing its R&D investment in the seven technologies including brain science and artificial intelligence and the eight sectors including smart manufacturing and new material development.
 
 Meanwhile, South Korea’s technological level and R&D investment in such sectors are much below those of high-tech industry leaders. In the quantum industry, South Korea’s level is 62.5 percent of that of the global leader whereas those of China and Japan are 93.2 percent and 90.4 percent, respectively. In 2019, South Korea’s R&D investment in the sector stood at 20 trillion won whereas those of the United States, the European Union, China and Japan were 224 trillion won, 124 trillion won, 77 trillion won and 39 trillion won, respectively.
