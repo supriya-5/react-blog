@@ -2,8 +2,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import one1 from './one1.png';
-import it from './sk-it.jpg';
-import food from './sk-food.jpg';
 import bts from './BTS.webp';
 import movie from './sk-movie.jpg';
 import place from './sk-place.jpg';
@@ -17,6 +15,8 @@ import mainbts from './bts_main.webp';
 import samsung from './Samsung.jpg';
 import snacks from './snacks.jpg';
 import coke from './coke.jpg';
+import imagestech2 from './imagestech2.jpg';
+import bimbap from './bimbap.webp'
 
 const Home = () => {
   return (
@@ -25,8 +25,10 @@ const Home = () => {
     <div className='Home-grid'>
       <Link to ="/Home/Category/article/1/Tourism">
    <img  className= "H1"src= {one1} height={400} width={600} alt="one"/></Link>
-   <img  className= "H2"src={it} height={200} width={300} alt="tech"/>
-   <img  className = "H3"src={food} height={200} width={300}  alt="food"/>
+   <Link to="/Home/Technology/Category/article/1">
+   <img  className= "H2"src={imagestech2} height={200} width={300} alt="tech"/></Link>
+   <Link to="/Home/Food/Category/article/1">
+   <img  className = "H3"src={bimbap } height={200} width={300}  alt="food"/></Link>
    </div>
    <p style={{textAlign:"center"}}>South Korea,[b] officially the Republic of Korea (ROK),[c] is a country in East Asia, constituting the southern part of the Korean Peninsula and sharing a land border with North Korea. Its western border is formed by the Yellow Sea, while its eastern border is defined by the Sea of Japan. South Korea claims to be the sole legitimate government of the entire peninsula and adjacent islands. It has a population of 51.75 million, of which roughly half live in the Seoul Capital Area, the fifth largest metropolis in the world. Other major cities include Incheon, Busan, and Daegu</p>
    

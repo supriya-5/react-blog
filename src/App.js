@@ -40,10 +40,12 @@ function App() {
         <Route path="/Kpop/Category/article/1" element={<Kpopone/>}/>
         <Route path="/Kpop/:1" element={<Kpopone/>}/>
         <Route path="/Technology/Category/article/1" element={<Techone/>}/>
+        <Route path="/Home/Technology/Category/article/1" element={<Techone/>}/>
         <Route path="/Technology/:1" element={<Techone/>}/>
         <Route path="/Movie/Category/article/1" element={<Movieone/>}/>
         <Route path="/Movie/:1" element={<Movieone/>}/>
         <Route path="/Food/Category/article/1" element={<Foodone/>}/>
+        <Route path="/Home/Food/Category/article/1" element={<Foodone/>}/>
         <Route path="/Food/:1" element={<Foodone/>}/>
       </Routes>
       </BrowserRouter>
